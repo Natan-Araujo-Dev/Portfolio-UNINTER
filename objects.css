@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth;
+}
+
 .body {
    background-color: #d9d4ff;
 
@@ -22,7 +26,7 @@
 
 .shortcut {
    font-size: 20px;
-   
+
    text-decoration: none;
 }
 
@@ -68,4 +72,26 @@
    padding-right: 15px;
 
    box-sizing: border-box;
+}
+
+.section {
+   display: flex;
+
+   min-height: 100vh;
+
+   justify-content: center;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: start;
+
+   padding: 17px;
+   border-radius: 5px;
+
+   max-width: 200px;
+
+   background-color: #c4c1eb;
 }

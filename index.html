@@ -11,7 +11,7 @@
 </head>
 <body class="body">
    <header class="full between-row header">
-      <div class="expand-hover owner-name">Natan Araujo</div>
+      <div class="owner-name">Natan Araujo</div>
 
       <div class="between-row">
          <a 
@@ -44,11 +44,173 @@
       </div>
    </header>
 
-   <main class="full centralized-col">
-      <div>Conteúdo principal aqui</div>
+   <main class="full centralized-col" style="gap: 50px;">
+      <div id="sobre" class="section centralized-col">
+         <div>
+            <div class="card">
+               <p>
+                  Meu nome é <span>Natan Araujo</span>. <br/>
+                  Sou um <span>Desenvolvedor de Software Fullstack.</span> <br/><br/>
+
+                  No meu tempo livre, gosto de jogar com meus amigos,<br/>
+                  ouvir música e programar. <br/><br/>
+
+                  Tenho 20 anos, e moro no Rio de Janeiro - RJ.
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <div id="formacao" class="section centralized-row" style="gap: 20px;">
+
+         <div style="display: flex; flex-direction: col; gap: 20px;">
+            <div class="card" style="gap: 20px;">
+               <div>Cursos:</div>
+
+               <div>
+                  Introdução ao React <br/>
+                  RocketSeat <br/>
+                  jul/2025
+               </div>
+
+               <div>
+                  ASP.NET <br/>
+                  Udemy <br/>
+                  fev/2025
+               </div>
+            </div>
+
+            <div class="card" style="gap: 20px;">
+               <div>Idiomas:</div>
+
+               <div>Inglês - Avançado</div>
+               <div>Espanhol - Básico</div>
+            </div>
+
+            <div class="card" style="gap: 20px;">
+               <div>Formação:</div>
+
+               <div>
+                  Engenharia de Software <br/>
+                  Centro Universitário Internacional - UNINTER <br/>
+                  set/2024 - prev set/2028
+               </div>
+
+               <div>
+                  Programção de Jogos Digitais <br/>
+                  Fundação de Apoio à Escola Técnica - FAETEC <br/>
+                  jan/2021 - dez/2023
+               </div>
+            </div>
+         </div>
+         
+      </div>
+
+      <div id="portfolio" class="section centralized-row" style="gap: 20px;">
+         <div style="display: flex; flex-direction: col; gap: 20px;">
+            <div class="card" style="gap: 20px;">
+               <div><h4>Bazar Carioca - Backend</h4></div>
+
+               <div>
+                  API REST feita com ASP.NET. <br/>
+                  Hospedada em um servidor Linux na AWS.
+               </div>
+
+               <div style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  width: 100%;"
+               >
+                  <div class="expand-hover">
+                     <a 
+                        href="https://github.com/Natan-Araujo-Dev/Bazar-Carioca-Backend"
+                        target="_blank"
+                        rel="noopener noreferrer"   
+                     >
+                        GitHub
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="card" style="gap: 20px;">
+               <div><h4>Bazar Carioca - Frontend</h4></div>
+
+               <div>
+                  Site SPA feito com React, Tailwind CSS e CVA. <br/>
+                  Hospedado no vercel.
+               </div>
+
+               <div style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  width: 100%;"
+               >
+                  <div class="expand-hover">
+                     <a 
+                        href="https://github.com/Natan-Araujo-Dev/Bazar-Carioca-Frontend"
+                        target="_blank"
+                        rel="noopener noreferrer"   
+                     >
+                        GitHub
+                     </a>
+                  </div>
+
+                  <div class="expand-hover">
+                     <a 
+                        href="https://bazar-carioca.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"   
+                     >
+                        Demonstração
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="card" style="gap: 20px;">
+               <div><h4>Portfólio Pessoal</h4></div>
+
+               <div>
+                  Site feito com React. <br/>
+                  Visual interativo, fluido, modo escuro e plano de fundo em movimento.
+                  Hospedado no vercel.
+               </div>
+
+               <div style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  width: 100%;"
+               >
+                  <div class="expand-hover">
+                     <a 
+                        href="https://github.com/Natan-Araujo-Dev/portfolio-pessoal"
+                        target="_blank"
+                        rel="noopener noreferrer"   
+                     >
+                        GitHub
+                     </a>
+                  </div>
+
+                  <div class="expand-hover">
+                     <a 
+                        href="https://natan-araujo-dev-portfolio.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"    
+                     >
+                        Demonstração
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
    </main>
 
-   <footer class="full centralized-col">
+   <footer class="full centralized-col" id="contato">
       <div class="full footer-1 centralized-col">Natan Araujo Dev</div>
 
       <div class="full footer-2 centralized-col">
@@ -72,13 +234,12 @@
                   style="gap: 12px;"
                >
                   <div> 
-                     E-mail:
                      <a
-                        href="https://drive.google.com/file/d/1Yjk_E6_Aghy2IOqPNiJ47qalMpqtkJwy/view?usp=sharing"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=natan.araujo.dev@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                      >
-                        natan.araujo.dev@gmail.com
+                        E-mail:
                      </a>
                   </div>
 
@@ -91,17 +252,6 @@
                         Currículo
                      </a>
                   </div>
-               </div>
-
-               <div>
-                  Meu site portfólio de verdade
-                  <a
-                     href="https://drive.google.com/file/d/1Yjk_E6_Aghy2IOqPNiJ47qalMpqtkJwy/view?usp=sharing"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                  >
-                     https://natan-araujo-dev-portfolio.vercel.app/
-                  </a>
                </div>
             </div>
 
