@@ -10,10 +10,10 @@
    <link rel="stylesheet" href="./extras.css">
 </head>
 <body class="body">
-   <header class="full between-row header">
+   <header class="header">
       <div class="owner-name">Natan Araujo</div>
 
-      <div class="between-row">
+      <div class="between-row" style="flex-wrap: wrap;">
          <a 
             href="#sobre"
             class="expand-hover shortcut"
@@ -46,7 +46,7 @@
 
    <main class="full centralized-col" style="gap: 50px;">
       <div class="section centralized-col">
-         <h1>
+         <h1 class="welcome">
             Seja bem-vindo(a) ao meu site! <br/>
             Me chamo <span style="color: blue;">Natan Araujo</span>.
          </h1>
@@ -78,9 +78,13 @@
             <h1>Formação</h1>
          </div>
 
-         <div style="display: flex; flex-direction: col; gap: 20px;">
+         <div 
+            class="container"
+         >
             <div class="card" style="gap: 20px;">
-               <div>Cursos:</div>
+               <div>
+                  <h4>Cursos:</h4>
+               </div>
 
                <div>
                   Introdução ao React <br/>
@@ -96,14 +100,18 @@
             </div>
 
             <div class="card" style="gap: 20px;">
-               <div>Idiomas:</div>
+               <div>
+                  <h4>Idiomas:</h4>
+               </div>
 
                <div>Inglês - Avançado</div>
                <div>Espanhol - Básico</div>
             </div>
 
             <div class="card" style="gap: 20px;">
-               <div>Formação:</div>
+               <div>
+                  <h4>Formação:</h4>
+               </div>
 
                <div>
                   Engenharia de Software <br/>
@@ -127,7 +135,7 @@
             <h1>Portfólio</h1>
          </div>
 
-         <div style="display: flex; flex-direction: col; gap: 20px;">
+         <div class="container">
             <div class="card" style="gap: 20px;">
                <div><h4>Bazar Carioca - Backend</h4></div>
 
