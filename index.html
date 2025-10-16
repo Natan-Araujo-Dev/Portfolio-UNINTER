@@ -215,9 +215,36 @@
             </div>
          </div>
       </div>
+
+      <div id="contato" class="section centralized-col">
+         <form 
+            id="contactForm" novalidate
+            style="
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;"
+         >
+            <div class="centralized-col">
+               <label for="email">Email</label>
+               <input id="email" name="email" type="email" inputmode="email" autocomplete="email" />
+            </div>
+
+            <div class="centralized-col">
+               <label for="message">Mensagem</label>
+               <textarea id="message" name="message"></textarea>
+            </div>
+
+            <div>
+               <button type="submit">Enviar</button>
+            </div>
+
+            <div id="status" aria-live="polite"></div>
+         </form>
+      </div>
    </main>
 
-   <footer class="full centralized-col" id="contato">
+   <footer class="full centralized-col">
       <div class="full footer-1 centralized-col">Natan Araujo Dev</div>
 
       <div class="full footer-2 centralized-col">
@@ -272,5 +299,7 @@
          © 2025 Natan do Nascimento de Araujo. Todos os direitos reservados. <br/>
          Desenvolvido com ❤️ usando HTML e CSS.</div>
    </footer>
+
+   <script src="script.js"></script>
 </body>
 </html>
